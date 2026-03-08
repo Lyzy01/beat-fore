@@ -8,13 +8,13 @@
 // If not configured, the app runs in Guest/Demo mode (no cloud save).
 // ============================================================
 
-const FIREBASE_CONFIG = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
+const firebaseConfig = {
+  apiKey: "AIzaSyDYgH2UiJmhXx57yB4gK1sY0YvZepivuRI",
+  authDomain: "dj-forge-studio.firebaseapp.com",
+  projectId: "dj-forge-studio",
+  storageBucket: "dj-forge-studio.firebasestorage.app",
+  messagingSenderId: "259829427736",
+  appId: "1:259829427736:web:fd9cef0f1c4feb3e2e9d6d"
 };
 
 // ── Safe init — won't crash if config is placeholder ──────────
